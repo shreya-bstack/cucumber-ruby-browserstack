@@ -2,6 +2,7 @@ require 'yaml'
 require 'selenium/webdriver'
 require 'capybara/cucumber'
 require 'browserstack/local'
+require 'browserstack/sdk'
 
 # monkey patch to avoid reset sessions
 class Capybara::Selenium::Driver < Capybara::Driver::Base
